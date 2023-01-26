@@ -89,3 +89,31 @@ body{
     border-radius: 7px;
     font-weight: 700;
 }
+
+.gallery h2{
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2037;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding: 0 35px;
+    margin-top: 45px;
+}
+
+.gallery-container .item{
+    flex: 0 0 130px;
+    text-align: center;
+}
+
+.img-placeholder{
+    height: 130px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
