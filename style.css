@@ -1,4 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 body{
-    height: 100vh;
     margin: 0;
+    font-family: Roboto, Verdana, Tahoma, sans-serif;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    flex: 0 1 930px;
+    padding: 15px 30px 80px 30px;
+}
+
+.logo-nav-container,
+.content-container{
+    display: flex;
+}
+
+.logo-nav-container{
+    justify-content: space-between;
+}
+
+.content-container{
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section1{
+    flex: 0 1 425px;
+}
+
+.section2{
+    background-color: #384a63;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    flex: 0 1 455px;
+}
+
+.section1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.section1 p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0 16px;
+}
+
+.sign-up-button{
+    padding: 6px 20px;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 700;
 }

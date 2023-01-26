@@ -8,27 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main-cointainer">
+    <div id="main-container">
         <div class="header">
-            <div class="logo-nav-container">
-                <div class="logo">Header Logo</div>
-                <ul class="nav">
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
-                </ul>
-            </div>
-            <div class="content-container">
-                <div class="section1">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here
-                        under the main title. It's a smaller font and
-                        the color is lower contrast
-                    </p>
-                    <button class="sign-up-button">Sign up</button>
+            <!--header-container is a header flex item that
+            is allowed to shrink, is not allowed to grow and
+            has a ideal width(flex-basis) -->
+            <div class="header-container">
+                <div class="logo-nav-container">
+                    <div class="logo">Header Logo</div>
+                    <ul class="nav">
+                        <li><a href="#">header link one</a></li>
+                        <li><a href="#">header link two</a></li>
+                        <li><a href="#">header link three</a></li>
+                    </ul>
                 </div>
-                <div class="section2">
-                    <p>this is a placeholder for an image</p>
+                <div class="content-container">
+                    <div class="section1">
+                        <h1>This website is awesome</h1>
+                        <p>This website has some subtext that goes here
+                            under the main title. It's a smaller font and
+                            the color is lower contrast
+                        </p>
+                        <button class="sign-up-button">Sign up</button>
+                    </div>
+                    <div class="section2">
+                        <p>this is a placeholder for an image</p>
+                    </div>
                 </div>
             </div>
         </div>
