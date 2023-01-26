@@ -103,7 +103,7 @@ body{
     justify-content: center;
     gap: 35px;
     flex-wrap: wrap;
-    padding: 0 35px;
+    padding: 0 35px 35px 35px;
     margin-top: 45px;
 }
 
@@ -116,4 +116,29 @@ body{
     height: 130px;
     border-radius: 10px;
     border: 3px solid #3882F6;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+}
+
+.quote-container{
+    flex: 0 1 540px;
+}
+
+.quote-container p:first-child{
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-container p:last-child{
+    font-weight: 700;
+    text-align: right;
 }
