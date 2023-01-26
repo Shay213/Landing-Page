@@ -81,7 +81,7 @@ body{
 }
 
 .sign-up-button{
-    padding: 6px 20px;
+    padding: 12px 20px;
     color: white;
     background-color: #3882F6;
     border: none;
@@ -141,4 +141,35 @@ body{
 .quote-container p:last-child{
     font-weight: 700;
     text-align: right;
+}
+
+.sign-up-section{
+    padding: 65px;
+    display: flex;
+    justify-content: center;
+}
+.sign-up-container{
+    /*width: 930px;*/
+    flex: 0 1 930px;
+    background-color: #3882F6;
+    padding: 35px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sign-up-text p{
+    color: white;
+    margin: 0;
+}
+
+.sign-up-text p:first-child{
+    font-weight: 700;
+}
+
+.sign-up-section .sign-up-button{
+    padding: 10px 18px;
+    border: 2px solid white;
 }
